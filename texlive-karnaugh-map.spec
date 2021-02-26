@@ -1,7 +1,7 @@
-Name:		karnaugh-map
-Version:	1.1
+Name:		texlive-karnaugh-map
+Version:	1.2
 Release:	1
-Summary:	 This package draws [karnaugh maps](https://en.wikipedia.org/wiki/Karnaugh_map) with 2, 3, 4, 5, and 6 variables.
+Summary:	 This package draws [karnaugh maps](https://en.wikipedia.org/wiki/Karnaugh_map) with 2, 3, 4, 5, and 6 variables
 Group:		Publishing
 URL:		https://ctan.org/pkg/karnaugh-map
 License:	Free license not otherwise listed
@@ -14,18 +14,13 @@ Requires(pre): texlive-tlpkg
 Requires(post):texlive-kpathsea	
 
 %description
-This package draws [karnaugh maps](https://en.wikipedia.org/wiki/Karnaugh_map) with 2, 3, 4, 5, and 6 variables.
-It also contains commands for filling the karnaugh map with terms semi-automatically or manually.
-Last but not least it contains commands for drawing implicants on top of the map.
+This package draws [karnaugh maps](https://en.wikipedia.org/wiki/Karnaugh_map) with 2, 3, 4, 5, and 6 variables
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/karnaugh-map
-%doc %{_texmfdistdir}/doc/latex/makecmds/README.md
-%doc %{_texmfdistdir}/doc/latex/makecmds/karnaugh-map.pdf
-#- source
-%doc %{_texmfdistdir}/source/latex/makecmds/karnaugh-map.dtx
-%doc %{_texmfdistdir}/source/latex/makecmds/karnaugh-map.ins
+%{_texmfdistdir}/tex/*
+%doc %{_texmfdistdir}/doc/*
+%doc %{_texmfdistdir}/source/*
 
 #-----------------------------------------------------------------------
 %prep
