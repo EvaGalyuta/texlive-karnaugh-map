@@ -1,6 +1,4 @@
 sources:
-karnaugh-map.tar.xz: 1ef3b1dcfe8ed27667b0348879da7827736516dc
-karnaugh-map.doc.tar.xz: e5733e5ba032264479deb4d56fda0fa21d228ca0
-karnaugh-map.source.tar.xz: 5b4059c776bab55323811eb61ddef235761eca53
-
-
+  "karnaugh-map.doc.tar.xz": e5733e5ba032264479deb4d56fda0fa21d228ca0
+  "karnaugh-map.source.tar.xz": 5b4059c776bab55323811eb61ddef235761eca53
+  "karnaugh-map.tar.xz": 1ef3b1dcfe8ed27667b0348879da7827736516dc
